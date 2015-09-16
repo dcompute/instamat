@@ -1,0 +1,34 @@
+{
+  "name": "instamat",
+  "version": "0.1.0",
+  "description": "Pleasantly convert Instagram API entities to formatted HTML.",
+  "main": "src/instamat.js",
+  "directories": {
+    "src": "./src",
+    "test": "./test"
+  },
+  "scripts": {
+    "test": "mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dcompute/instamat.git"
+  },
+  "keywords": [
+    "Instagram",
+    "API",
+    "HTML",
+    "Format",
+    "JSON"
+  ],
+  "author": "Daniel Lacy <dan@daniellacy.com> (http://daniellacy.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dcompute/instamat/issues"
+  },
+  "homepage": "https://github.com/dcompute/instamat#readme",
+  "devDependencies": {
+    "mocha": "^2.3.2",
+    "sinon": "^1.16.1"
+  }
+}
